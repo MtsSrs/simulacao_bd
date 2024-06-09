@@ -4,10 +4,10 @@ const { Worker, isMainThread, parentPort, workerData } = require('worker_threads
 
 const app = express();
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'SenhaSegura123!',
-    database: 'financial',
+    host: 'SeuHost',
+    user: 'SeuUser',
+    password: 'SuaSenha',
+    database: 'SeuBD',
     port: 3306 
 });
 
